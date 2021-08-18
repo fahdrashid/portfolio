@@ -8,7 +8,7 @@ function Type() {
         strings: [
           "Full Stack Developer",
           "Django | Flask | Python",
-          "Reactjs | Nodejs | Javascript | Typecript",
+          "Reactjs | Nodejs | Javascript | Typescript",
           "MySQL | PSQL | MongoDB",
         ],
         autoStart: true,

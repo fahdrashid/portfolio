@@ -3,12 +3,11 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import doyo from "../../Assets/Projects/doyo.png";
+import erp from "../../Assets/Projects/erp.png";
+import dawn from "../../Assets/Projects/dawn.png";
+import startuptree from "../../Assets/Projects/startuptree.png";
+import topsoilsearch from "../../Assets/Projects/topsoilsearch.png";
 
 function Projects() {
   return (
@@ -22,47 +21,82 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={startuptree}
+              isBlog={false}
+              title="Startup Tree"
+              description={[
+                "A food ordering service to make the interaction between customers and restaurants without interfering the waiter that has to take order manually instead it will be an app that facilitate the customers through an app by using the specific QR code displayed on each table. An admin panel for restaurants through which they can manage and deliver food through the portal.",
+                "Roles and Resposibilities :",
+                "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Reactjs."
+              ]}
+              link="https://www.startuptree.co/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={doyo}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              link="https://github.com/soumyajit4419/Chatify"
+              title="DOYO"
+              description={[
+                "A food ordering service to make the interaction between customers and restaurants without interfering the waiter that has to take order manually instead it will be an app that facilitate the customers through an app by using the specific QR code displayed on each table. An admin panel for restaurants through which they can manage and deliver food through the portal.",
+                "Roles and Resposibilities :",
+                "My role was to add localization using Google translate API and store the translations in MySQL database, further utilize it on the public side of website to accommodate the customers to select any given languages for their easier use. A complete design of making an order which has eight screens is implemented for mobile viewers and made the required API’s in flask. Some changes are also made on admin side of frontend of the website. I worked on this project as a full stack developer."
+              ]}
+              link="http://doyo.it/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={erp}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/soumyajit4419/Plant_AI"
+              title="ERP Pack"
+              description={[
+                "A web-based enterprise-level product that has four key modules.",
+
+                "1. Accounting System",
+                "2. Attendance System",
+                "3. Purchase Order System",
+                "4. Payroll System",
+
+                "The product is versatile in its nature and encompasses all needs of any organization. One can manage problems regarding Finance and Accounts. An organization can manage its attendance and keep tracks of their employees. A Purchase Order system manages all purchase process and keep tracks of all the purchasing goods. Likewise, Payroll system manage everything which has to do with the process of paying employees and filing employment taxes. The Payroll system keeps track of worked hours, calculating wages, withholding taxes and other deductions.",
+                "Roles and Resposibilities :",
+                "Collaborated with cross functional team to define, design and ship new features using Reactjs library."
+              ]}
+              link="https://www.erppack.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={dawn}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/soumyajit4419/Editor.io"
+              title="DAWN"
+              description={[
+                "A service provider between tourists and the owners of house to make the negotiation through the app before coming to the trip so that they can have multiple options to consider and reasonable rent for the stay.",
+                "Roles and Resposibilities :",
+                "Collaborated with cross functional team to define, design and ship new features using Reactjs library."
+              ]}
+              link="https://hiimdawn.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={topsoilsearch}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              link="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="TopSoil Search"
+              description={[
+                "Roles and Resposibilities :",
+                "My role was to collaborate with cross functional team to define, design and ship new features using Django Rest Framework and Angular."
+              ]}
+              link="https://topsoilsearch.co.uk/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
@@ -81,7 +115,7 @@ function Projects() {
               Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
-          </Col>
+          </Col> */}
         </Row>
       </Container>
     </Container>
