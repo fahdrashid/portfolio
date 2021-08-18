@@ -10,28 +10,28 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Fahad Rashid </span>
             from <span className="purple"> Lahore, Pakistan.</span>
-            <br />I am a junior pursuing IMSC in Maths and Computing in BIT
-            Mesra.
+            <br /> <br /> Self-motivated Full Stack Developer with 2 years of experience working in multiple stacks and technologies made me a fast learner.
+            Two times rector and one time dean merit award winner throughout my graduation period in University of Management and Technology.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> &nbsp; Playing Table Tennis and Badminton
             </li>
-            <li className="about-activity">
+            {/* <li className="about-activity">
               <ImPointRight /> Writting Tech Blogs
-            </li>
+            </li> */}
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> &nbsp; Travelling
             </li>
           </ul>
 
-          <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
+          {/* <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
-          </p>
-          <footer className="blockquote-footer">Fahad</footer>
+          </p> */}
+          {/* <footer className="blockquote-footer">Fahad</footer> */}
         </blockquote>
       </Card.Body>
     </Card>

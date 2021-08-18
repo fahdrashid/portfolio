@@ -10,8 +10,14 @@ function ProjectCards(props) {
       <Card.Body>
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
-          {props.description}
+          {/* <ul> */}
+            {props.description.map((value, index) => (
+              <p key={index}> {value}</p>
+            ))}
+          {/* </ul> */}
+          {/* {props.description} */}
         </Card.Text>
+        <br />
         <Button variant="primary" href={props.link} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
