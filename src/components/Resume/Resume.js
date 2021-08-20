@@ -78,7 +78,7 @@ function Resume() {
             <h3 className="resume-title">Education</h3>
             <Resumecontent
               title="BS Computer Science"
-              university="University of Management and Technology [Lahore, Punjab] "
+              university="University of Management and Technology [Lahore, Punjab]"
               date="2015 - 2019"
               content={[`CGPA: ${3.69}`]}
             />

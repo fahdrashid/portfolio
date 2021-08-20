@@ -19,13 +19,17 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />I have experience working in &nbsp;
-              <i>
+              <br />Hi there! You're in the right place and have got a suitable person to work with. Let me introduce myself. <br /> <br />
+
+              I have extensive experience of 4 years working with cutting-edge technologies, and I have excellent skills in building a great, user-friendly, interactive, and highly maintainable frontend. <br /> <br />
+
+              I have worked with many clients and worked on several projects, from mainstream to specifically unique and great enterprise-level projects. I have achieved significant milestones and delivered exceptional and remarkable work to all of my clients.<br /> <br />
+              <i> I have experience working in
                 <b className="purple"> Javascript, Typescript and Python. </b>
               </i>
               <br />
               <br />
-              I usually used to build &nbsp;
+              I usually used to build
               <i>
                 <b className="purple">Web Technologies and Products. </b>
               </i>
