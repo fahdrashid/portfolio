@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Startup Tree"
               description={[
-                "A food ordering service to make the interaction between customers and restaurants without interfering the waiter that has to take order manually instead it will be an app that facilitate the customers through an app by using the specific QR code displayed on each table. An admin panel for restaurants through which they can manage and deliver food through the portal.",
+                "StartupTree is the glue that holds our growing entrepreneurial ecosystem together. It helps us make vital connections and keep track of data that is crucial to our decision making.",
                 "Roles and Resposibilities :",
                 "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Reactjs."
               ]}
