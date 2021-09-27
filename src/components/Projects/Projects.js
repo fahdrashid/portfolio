@@ -27,7 +27,7 @@ function Projects() {
               isBlog={false}
               title="Startup Tree"
               description={[
-                "Startup is the glue that holds our growing entrepreneurial ecosystem together. It helps us make vital connections and keep track of data that is crucial to our decision making.",
+                "StartupTree is the glue that holds our growing entrepreneurial ecosystem together. It helps us make vital connections and keep track of data that is crucial to our decision making.",
                 "Roles and Resposibilities :",
                 "Collaborated with cross functional team to define, design and ship new features using Python, Javascript, Django and Reactjs."
               ]}
