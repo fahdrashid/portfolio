@@ -42,11 +42,10 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Software Engineer [Virtual Force Inc.]"
+              title="Senior Software Engineer [Virtual Force Inc.]"
               date="August 2020 - Present"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "",
               ]}
             />
             <br />
@@ -56,8 +55,7 @@ function Resume() {
               title="Software Engineer [Codility Solutions]"
               date="October 2019 - August 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "",
               ]}
             />
             {/* <h3 className="resume-title">Extracurricular Activities</h3>
