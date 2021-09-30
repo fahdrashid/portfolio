@@ -43,7 +43,7 @@ function Resume() {
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
               title="Senior Software Engineer [Virtual Force Inc.]"
-              date="August 2020 - Present"
+              date="August 2021 - Present"
               content={[
                 "",
               ]}
@@ -53,7 +53,7 @@ function Resume() {
 
             <Resumecontent
               title="Software Engineer [Codility Solutions]"
-              date="October 2019 - August 2020"
+              date="October 2019 - August 2021"
               content={[
                 "",
               ]}
