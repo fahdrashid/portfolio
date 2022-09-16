@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Fahad Rashid </span>
             from <span className="purple"> Lahore, Pakistan.</span>
             <br /> <br />
-            I have extensive experience of 2+ years working with cutting-edge technologies, and I have excellent skills in building a great, user-friendly, interactive, and highly maintainable frontend. <br /> <br />
+            I have extensive experience of 3+ years working with cutting-edge technologies, and I have excellent skills in building a great, user-friendly, interactive, and highly maintainable frontend. <br /> <br />
 
             I have worked with many clients and worked on several projects, from mainstream to specifically unique and great enterprise-level projects. I have achieved significant milestones and delivered exceptional and remarkable work to all of my clients.
             <br />

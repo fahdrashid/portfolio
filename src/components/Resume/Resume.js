@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 // import axios from "axios";
-import pdf from "../../Assets/Fahad-Rashid.pdf";
+import pdf from "../../Assets/Fahad-Rashid1.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
@@ -41,6 +41,24 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+            <Resumecontent
+              title="Full Stack Developer [TrackHero]"
+              date="April 2022 - Present"
+              content={[
+                "",
+              ]}
+            />
+            <br />
+            <br />
+            <Resumecontent
+              title="Software Engineer [Neufast]"
+              date="Jan 2022 - May 2022"
+              content={[
+                "",
+              ]}
+            />
+            <br />
+            <br />
             <Resumecontent
               title="Senior Software Engineer [Virtual Force Inc.]"
               date="August 2021 - Present"

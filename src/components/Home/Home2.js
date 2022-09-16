@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import fahad from "../../Assets/fahad.png";
+import fahad from "../../Assets/fahad.jpeg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -19,17 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              <br />Hi there! You're in the right place and have got a suitable person to work with. Let me introduce myself. <br /> <br />
-
-              I have extensive experience of 2+ years working with cutting-edge technologies, and I have excellent skills in building a great, user-friendly, interactive, and highly maintainable frontend. <br /> <br />
-
-              I have worked with many clients and worked on several projects, from mainstream to specifically unique and great enterprise-level projects. I have achieved significant milestones and delivered exceptional and remarkable work to all of my clients.<br /> <br />
-              <i> I have experience working in
+              <br />
+              Hi there! You're in the right place and have got a suitable person
+              to work with. Let me introduce myself. <br /> <br />
+              I have extensive experience of 3+ years working with cutting-edge
+              technologies, and I have excellent skills in building a great,
+              user-friendly, interactive, and highly maintainable frontend.{" "}
+              <br /> <br />
+              I have worked with many clients and worked on several projects,
+              from mainstream to specifically unique and great enterprise-level
+              projects. I have achieved significant milestones and delivered
+              exceptional and remarkable work to all of my clients.
+              <br /> <br />
+              <i>
+                {" "}
+                I have experience working in
                 <b className="purple"> Javascript, Typescript and Python. </b>
               </i>
               <br />
-              <br />
-              I usually used to build
+              <br />I usually used to build
               <i>
                 <b className="purple">Web Technologies and Products. </b>
               </i>
@@ -51,7 +59,12 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={fahad} className="img-fluid" alt="avatar" />
+              <img
+                src={fahad}
+                className="img-fluid"
+                alt="avatar"
+                style={{ borderRadius: "70px" }}
+              />
             </Tilt>
           </Col>
         </Row>
